@@ -1,0 +1,192 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sakinah</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="fajr">Fajr</string>
+    <string name="dhur">Dhur</string>
+    <string name="asr">Asr</string>
+    <string name="magrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="jumah">Jumah</string>
+    <string name="settings_button">Settings Button</string>
+    <string name="location_request_text">Enable location permission to calculate prayer times directly.</string>
+    <string name="set_location_icon">Set location icon</string>
+    <string name="request_location_permission">Request location permissions</string>
+    <string name="or_manual_location">Or set the location manually in settings</string>
+    <string name="dnd_text">Please enable (Do Not Disturb) access in settings for the app to function correctly.</string>
+    <string name="dnd_icon">Do Not Disturb permission icon</string>
+    <string name="goto_dnd">Go to (Do Not Disturb) Settings</string> <!-- Requires retranslation across all languages-->
+    <string name="location_denied_dialog">Please allow location access permissions for the app to calculate prayer times and function correctly.</string>
+    <string name="location_perma_denied">Location Permission has been permanently declined. Go to app settings to allow it.</string>
+    <string name="dnd_denied">Please allow notification/Do Not Disturb access to be able to manage audio volume during prayer times</string>
+    <string name="dnd_perma_denied">Do Not Disturb access has been permanently declined, Go to app settings to allow it</string>
+    <string name="auto_start_text">Due to restrictions by the system, the app will be killed in the background and won\'t be able to silence during prayer times. Please allow autostart permission</string>
+    <string name="enable_auto_start">Enable Autostart</string>
+    <string name="goto_app_settings">Open app settings</string>
+    <string name="auto_start_icon">Auto start icon</string>
+    <string name="back_to_main">Back to home page</string>
+    <string name="settings">Settings</string>
+    <string name="set_location">Set Location</string>
+    <string name="set_location_desc">Set the location used to calculate prayer times.</string>
+    <string name="location_update_freq">Location Update Frequency</string>
+    <string name="location_freq_desc">Set how frequently the prayer and location data should be updated.</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="enable_notifications_desc">Enable it to get feedback and information about app state</string>
+    <string name="switch_to_vibrate">Switch to vibrate</string>
+    <string name="vibrate_desc">Enable the switch to set ringer mode to vibration instead of silent during prayer times.</string>
+    <string name="prayer_calc_method">Prayer Calculation Method</string>
+    <string name="prayer_calc_desc">Set the method used for prayer time calculations.</string>
+    <string name="hanafi_asr">Hanafi Asr Prayer</string>
+    <string name="hanafi_asr_desc">Use the Hanafi Asr prayer times</string>
+    <string name="high_lat">High Latitude Adjustment</string>
+    <string name="high_lat_desc">Select the type of adjustment needed to correctly calculate prayer times in higher latitude areas.</string>
+    <string name="select_prayer_calc">Select the prayer calculation method</string>
+    <string name="select_high_lat">Select the high latitude adjustment method</string>
+    <string name="select_location_update">Select the location update frequency</string>
+    <string name="makkah">Umm Al-Qura, Makkah</string>
+    <string name="mwl">Muslim World League</string>
+    <string name="isna">Islamic Society of North America</string>
+    <string name="karachi">University of Islamic Sciences, Karachi</string>
+    <!-- Part 1 - 4000 Characters limit -->
+    <string name="jafari">Jafari</string>
+    <string name="egypt">Egypt</string>
+    <string name="tehran">Tehran</string>
+    <string name="none">None</string>
+    <string name="mid_night">Midnight</string>
+    <string name="one_seven">One-Seventh of night</string>
+    <string name="angle_based">Angle-based</string>
+    <string name="every_hour">Every hour</string>
+    <string name="every_4">Every 4 hours</string>
+    <string name="every_12">Every 12 Hours</string>
+    <string name="every_24">Every 24 hours</string>
+    <string name="select_time_period">Set time period to silence phone for %s prayer</string>
+    <string name="phone_will_be_silenced_from">Phone will be silenced from</string>
+    <string name="after_adhan">after adhan</string>
+    <string name="before_adhan">before adhan</string>
+    <string name="until">until</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="click_to_get_location">Click the button to get your location</string>
+    <string name="get_location">Get Location</string>
+    <string name="manual_location_note">Note: Setting location manually disables location updates</string>
+    <string name="city_in_english">Enter your city in English</string>
+    <string name="no_result">No result</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="basic_settings">Basic Settings</string>
+    <string name="prayer_settings">Prayer Settings</string>
+    <string name="notification_id" translatable="false">SilenceTimer</string>
+    <string name="silence_notif_title">Silence Period Active</string>
+    <string name="silent_notif_name">Silence Timer Notification</string>
+    <string name="silence_notif_desc">Silence period is activated for %s prayer</string>
+    <string name="loading">Loading…</string>
+    <string name="title_activity_about">About</string>
+    <string name="on_">On</string>
+    <string name="off_">Off</string>
+    <string name="app_disabled_warning">Re-enable app to change your preferences</string>
+    <string name="about_desc">Information regarding app and developer</string>
+    <string name="error_notif_channel">Error Notifications</string>
+    <string name="error_notif_desc">Displays when an error occurs</string>
+    <string name="info_notif_channel">Information Notifications</string>
+    <string name="info_notif_desc">Displays information for the user regarding app status</string>RR
+    <string name="work_notif_channel">Work Notifications</string>
+    <string name="work_notif_desc">Displays when the silence period is active</string>
+    <string name="manage_notifs">Manage Notifications</string>
+    <string name="no_prayer_times">Could not load prayer times</string>
+    <string name="alarms_denied_dialog">Alarms permission is still denied. it is required for the app to schedule exact trigger times for the silence period. Please enable it or you will experience inaccurate triggering time.</string>
+    <string name="manage_notifs_desc">Opens the app notification management page in system settings</string>
+    <string name="no_data_title">Error: No data found</string>
+    <string name="no_data_msg">Could not load data to start silence timer.</string>
+    <string name="wrong_time_title">Error: Wrong Time Calculations</string>
+    <string name="wrong_time_msg">Please check you date, time and timezone settings and reopen the app.</string>
+    <!-- Part 2 -->
+    <string name="request_notifications">Request notifications permission</string>
+    <string name="notification_perma_denied">Notifications has been permanently declined. Open notification settings to enable it.</string>
+    <string name="notifications_denied">Permission has been denied. Notifications are optional to provide you with information about the app state in the background. Click OK to request again.</string>
+    <string name="dont_show_again">Don\'t show again</string>
+    <string name="additional_settings">Additional Settings</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="minutes">Minutes</string>
+    <!-- For number of minutes that can be represented without a number use plural -->
+    <plurals name="minutes">
+        <item quantity="one">A minute</item>
+        <item quantity="other">%d Minutes</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <string name="schedule_alarms_text">Enable Scheduling Alarms Permission</string>
+    <string name="schedule_alarms_desc">It is essential for the app to be able to schedule alarms for precise timing of silence periods.</string>
+    <string name="enable_alarms">Enable Alarms</string>
+    <string name="dnd_title">Enable Do Not Disturb Permission</string>
+    <string name="location_title">Enable Location Permissions</string>
+    <string name="highly_recommended">Highly Recommended</string>
+    <string name="duration">Duration</string>
+    <string name="app_desc">An application to mute your phone during prayer times to avoid distractions in your prayers</string>
+    <string name="developed_by">Developed by: <xliff:g id="dev_name">Ahmed Alahmary</xliff:g> AKA <xliff:g id="dev_username">Sypers</xliff:g></string>
+    <string name="by">by</string>
+    <string name="additional_resources">Additional resources</string>
+    <string name="battery_optimization_denied_dialog">The app needs to disable battery optimization to run at least daily. It only runs a few times in the background for light tasks. If you don\'t disable it the app might not work the next day.</string>
+    <string name="turn_off_batteryopt">Turn off app battery optimization</string>
+    <string name="battery_opt_body">Battery optimization prevent the app from working in the background for a long time. Please disable it so the app can function correctly.</string>
+    <string name="open_battery_settings">Open battery optimization settings</string>
+    <string name="rate_us">Rate us</string>
+    <string name="rate_us_desc">Give us a rating and express your experience and suggestions.</string>
+    <string name="rate_api_fail">Can\'t start review, please try again later.</string>
+    <string name="location_updated">Location updated</string>
+    <string name="hours">hours</string>
+    <string name="every">Every</string>
+    <string name="on_adhan">On Adhan</string>
+    <string name="always_on_notif_channel">Always-on Notification</string>
+    <string name="always_on_notif_desc">A permanent notification to keep the app running in the background.</string>
+    <string name="always_on_text">Currently enabled</string>
+    <string name="shutdown">Shutdown</string>
+    <string name="update">Update</string>
+    <string name="update_success">Update successful</string>
+    <string name="update_failed">Update failed!</string>
+    <string name="default_prayer">default</string>
+    <string name="disable_app_hibernation">Disable Pause App Activity</string>
+    <string name="add_app_icons">Additional App Icons</string>
+    <string name="notif_sounds">Notification sounds</string>
+    <string name="enter_your_location">Enter your location</string>
+    <string name="location_not_found">Location not found!</string>
+    <string name="searching">Searching…</string>
+    <string name="ops_notif_channel">Operations Notifications</string>
+    <string name="ops_notif_desc">Notifies of operations being done by the app.</string>
+    <string name="updating">Updating…</string>
+    <string name="update_desc">Updating app data.</string>
+    <string name="languages">Languages</string>
+    <string name="languages_subtitle">Select your preferred app language</string>
+    <string name="retry">Retry</string>
+    <string name="location_error">Error Getting Location, Please check your location settings. Or switch to manual location in app settings</string>
+    <string name="language_dialog_title">Select your desired app language</string>
+    <string name="back_to_settings">Back to settings</string>
+    <string name="help_translate">Want to help translate the app? Visit this GitHub repository for more info.</string>
+    <!-- Special String array for language selection -->
+    <string-array name="supported_locales" translatable="false">
+        <item>ar</item>
+        <item>en</item>
+        <item>hi</item>
+        <item>ur</item>
+        <!-- TODO reimplement after translations are done
+        <item>de</item>
+        -->
+    </string-array>
+    <string name="turn_on_location">Please turn on your location.</string>
+    <string name="use_alternative_scheduling">Use Alternative Scheduling</string>
+    <string name="use_alt_scheduling_desc">Enable to use an alternative scheduling method which makes trigger time more percise but may use more battery power. You should enable it if the silence timer starts late.</string>
+    <string name="share_app">Share the app</string>
+    <string name="share_app_desc">Share the app with other social platfroms</string>
+    <string name="share_app_text">Check out (Sakinah):\nAn Android app to mute your phone automatically during islamic prayer times.\nGet it on Google Play Store:\n<xliff:g id="google_play_link">https://play.google.com/store/apps/details?id=com.dev.sakinah</xliff:g></string>
+    <string name="theme">Theme</string>
+    <string name="system_default">System Default</string>
+    <string name="mat_you_light">Material You Light</string>
+    <string name="mat_you_dark">Material You Dark</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="theme_desc">Choose your desired app theme.</string>
+    <string name="current_location_type">Current Location Type</string>
+    <string name="manual_location">Manual Location</string>
+    <string name="auto_location">Auto Location</string>
+</resources>

@@ -8,8 +8,7 @@
     <string name="isha">العشاء</string>
     <string name="jumah">الجمعة</string>
     <string name="settings_button">زر الإعدادات</string>
-    <string name="location_request_text">الرجاء تمكين إذن تحديد الموقع ليعمل التطبيق بشكل صحيح. حدده على (العمل طوال الوقت) لكي يتم التحديث في الخلفية.</string>
-    <string name="location_request_api30">إذهب إلى: الأذونات -> الموقع -> السماح طوال الوقت</string>
+    <string name="location_request_text">الرجاء تمكين إذن تحديد الموقع لتتم عملية حساب أوقات الصلاة.</string>
     <string name="set_location_icon">أيقونة تحديد الموقع</string>
     <string name="request_location_permission">طلب إذن تحديد الموقع</string>
     <string name="or_manual_location">أو حدد موقعك يدوياً من قائمة الإعدادات</string>
@@ -80,8 +79,8 @@
     <string name="silence_notif_desc">مؤقت الصمت فعال لصلاة %s</string>
     <string name="loading">جاري التحميل…</string>
     <string name="title_activity_about">عن التطبيق</string>
-    <string name="on">فعال</string>
-    <string name="off">موقف</string>
+    <string name="on_">فعال</string>
+    <string name="off_">موقف</string>
     <string name="app_disabled_warning">أعد تفعيل وظائف التطبيق لتعديل تفضيلاتك</string>
     <string name="about_desc">معلومات عن التطبيق و المطور</string>
     <string name="error_notif_channel">تنبيهات الخطأ</string>
@@ -92,7 +91,6 @@
     <string name="work_notif_desc">يظهر عند تفعيل فترة الصمت</string>
     <string name="manage_notifs">إدارة الإشعارات</string>
     <string name="no_prayer_times">لم أستطع تحميل أوقات الصلاة</string>
-    <string name="background_location_denied_dialog">لا يزال موقع الخلفية مرفوضًا. يرجى تفعيله لتتمكن من تحديث الموقع تلقائيا. يعمل التطبيق دون اتصال بالإنترنت، لذا لن يتم تحميل بياناتك إلى أي شخص. أو يمكنك استخدام الموقع اليدوي في إعدادات التطبيق.</string>
     <string name="alarms_denied_dialog">لا يزال إذن الإنذارات مرفوضًا. مطلوب من التطبيق جدولة أوقات التشغيل المحددة لفترة الصمت. يرجى تمكينه وإلا فسوف تواجه وقت تشغيل غير دقيق.</string>
     <string name="manage_notifs_desc">فتح صفحة إدارة إشعارات التطبيق في إعدادات النظام</string>
     <string name="no_data_title">خطأ: لا يوجد بيانات</string>
@@ -147,7 +145,7 @@
     <string name="every">كل</string>
     <string name="on_adhan">عند الأذان</string>
     <string name="always_on_notif_channel">الإشعار الدائم</string>
-    <string name="always_on_notif_desc">إشعار داذم لإبقاء التطبيق قيد التشغيل في الخلفية.</string>
+    <string name="always_on_notif_desc">إشعار دائم لإبقاء التطبيق قيد التشغيل في الخلفية.</string>
     <string name="always_on_text">فعال حالياً</string>
     <string name="shutdown">إيقاف تشغيل</string>
     <string name="update">تحديث</string>
@@ -166,13 +164,25 @@
     <string name="update_desc">تحديث بيانات التطبيق</string>
     <string name="languages">اللغات</string>
     <string name="languages_subtitle">اختر اللغة المفضلة للتطبيق</string>
-    <string name="enable_background_location">تفعيل الوصول للموقع في الخلفية</string>
-    <string name="background_location_tooltip">تحتاج إلى إذن الوصول للموقع في الخلفية لهذا الإعداد. إضغط للذهاب إلى إعدادات التطبيق</string>
-    <string name="background_location_access_granted">تم فتح ضبط تكرار تحديث الموقع</string>
     <string name="retry">أعد المحاولة</string>
     <string name="location_error">خطأ في الوصول إلى الموقع, من فضلك تفقد إعدادات الموقع. أو قم بتعيين موقع يدوي من الإعدادات</string>
     <string name="language_dialog_title">قم بإختيار اللغة المفضلة لك</string>
     <string name="back_to_settings">الرجوع إلى الإعدادات</string>
     <string name="help_translate">هل تريد المساعدة في ترجمة التطبيق؟ قم بزيارة هذا الرابط للمزيد من المعلومات.</string>
-
+    <string name="turn_on_location">الرجاء تفعيل الموقع</string>
+    <string name="use_alternative_scheduling">استخدام الجدولة البديلة</string>
+    <string name="use_alt_scheduling_desc">تمكين استخدام طريقة جدولة بديلة تجعل وقت التشغيل أكثر دقة ولكنه قد يستهلك المزيد من طاقة البطارية. يجب عليك تمكينه إذا بدأ مؤقت الصمت متأخرًا.</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="share_app_desc">شارك التطبيق في منصات التواصل الاجتماعي</string>
+    <string name="share_app_text">تفقد (سكينة):\n تطبيق أندرويد لوضع الجوال في الوضع الصامت أثناء أوقات الصلاة أوتوماتيكيا.\n للتحميل من قوقل بلاي:\n<xliff:g id="google_play_link">https://play.google.com/store/apps/details?id=com.dev.sakinah</xliff:g></string>
+    <string name="theme">السمة</string>
+    <string name="system_default">الإفتراضي</string>
+    <string name="mat_you_light">Material You داكن</string>
+    <string name="mat_you_dark">Material You فاتح</string>
+    <string name="light">فاتح</string>
+    <string name="dark">داكن</string>
+    <string name="theme_desc">اختر السمة المرغوب بها</string>
+    <string name="current_location_type">نوع الموقع الحالي</string>
+    <string name="manual_location">موقع يدوي</string>
+    <string name="auto_location">موقع آلي</string>
 </resources>
