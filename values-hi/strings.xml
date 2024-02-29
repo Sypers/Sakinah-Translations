@@ -9,7 +9,7 @@
     <string name="isha">ईशा</string>
     <string name="jumah">जुम्मा</string>
     <string name="settings_button">सेटिंग्स बटन</string>
-    <string name="location_request_text">सीधे प्रार्थना समय की गणना करने के लिए स्थान अनुमति सक्षम करें।</string>
+    <string name="location_request_text">सीधे प्रार्थना समय की गणना करने के लिए स्थान अनुमति सक्षम करें।. एप्लिकेशन केवल तब तक आपके स्थान का उपयोग करता है जब यह पूर्वदृष्टि में है।</string>
     <string name="set_location_icon">स्थान आइकन सेट करें</string>
     <string name="request_location_permission">स्थान अनुमतियाँ अनुरोध करें</string>
     <string name="or_manual_location">या स्थान को सेटिंग्स में मैन्युअली सेट करें</string>

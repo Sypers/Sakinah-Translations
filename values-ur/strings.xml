@@ -9,7 +9,7 @@
     <string name="isha">عشاء</string>
     <string name="jumah">جمعہ</string>
     <string name="settings_button">سیٹنگز بٹن</string>
-    <string name="location_request_text">مقام کی اجازت فعال کریں تاکہ نماز کے اوقات کا مستقیم حساب کیا جا سکے۔</string>
+    <string name="location_request_text">مقام کی اجازت فعال کریں تاکہ نماز کے اوقات کا مستقیم حساب کیا جا سکے۔ اس ایپ نے آپ کی جگہ صرف اس وقت استعمال کرتا ہے جب یہ فورگراؤنڈ میں ہے۔</string>
     <string name="set_location_icon">مقام کا آئیکن ترتیب دیں</string>
     <string name="request_location_permission">مقام کی اجازت حاصل کریں</string>
     <string name="or_manual_location">یا ترتیبات میں مقام دستیاب کریں</string>

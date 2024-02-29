@@ -8,7 +8,7 @@
     <string name="isha">العشاء</string>
     <string name="jumah">الجمعة</string>
     <string name="settings_button">زر الإعدادات</string>
-    <string name="location_request_text">الرجاء تمكين إذن تحديد الموقع لتتم عملية حساب أوقات الصلاة.</string>
+    <string name="location_request_text">الرجاء تمكين إذن تحديد الموقع لتتم عملية حساب أوقات الصلاة. التطبيق لا يستعمل الموقع إلا إذا كان في الواجهة.</string>
     <string name="set_location_icon">أيقونة تحديد الموقع</string>
     <string name="request_location_permission">طلب إذن تحديد الموقع</string>
     <string name="or_manual_location">أو حدد موقعك يدوياً من قائمة الإعدادات</string>

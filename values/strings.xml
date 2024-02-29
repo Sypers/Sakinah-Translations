@@ -8,7 +8,7 @@
     <string name="isha">Isha</string>
     <string name="jumah">Jumah</string>
     <string name="settings_button">Settings Button</string>
-    <string name="location_request_text">Enable location permission to calculate prayer times directly.</string>
+    <string name="location_request_text">Enable location permission to calculate prayer times directly. The app only uses your location when its in the foreground.</string>
     <string name="set_location_icon">Set location icon</string>
     <string name="request_location_permission">Request location permissions</string>
     <string name="or_manual_location">Or set the location manually in settings</string>
